@@ -1,0 +1,17 @@
+.VideoList{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.VideoList-boxes{
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 90%;
+  display: grid;
+  grid-template-columns: repeat(4, 24%);
+  grid-gap: 1rem;
+}

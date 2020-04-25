@@ -1,0 +1,68 @@
+.VideoBox {
+  width: 275px;
+  height: 275px;
+  cursor: pointer;
+}
+
+.VideoBox:hover{
+  opacity: 0.8;
+}
+
+
+.VideoBox-imagem{ 
+  position: relative;
+}
+
+.VideoBox-imagem img { 
+  width: 100%;
+  height: 155px;
+}
+
+.VideoBox-imagem-duration {
+  position: absolute;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  width: 15%;
+  height: 22px;
+  background-color: rgba(0, 0, 0, 0.5);
+  bottom: 10px;
+  right: 10px;
+  font-size: 12px;
+}
+
+.VideoBox-content{
+  width: 100%;
+  display: inline-flex;
+  justify-content: space-between;
+}
+
+.VideoBox-content-avatar img{
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-top: 10px;
+}
+
+.VideoBox-content-info{
+  display: flexbox;
+}
+
+.VideoBox-content-info-title h1{
+  font-size: 14px;
+}
+
+.VideoBox-content-info-description{
+  margin-top: 15px;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.VideoBox-content-info-description h2{
+  font-size: 12px;
+
+}
+
+.VideoBox-content-icon{
+  width: 10px;
+}
